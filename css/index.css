@@ -4,15 +4,17 @@
 
 .t-selected {
 	background-color: rgba(0, 0, 0, 0.12) !important;
-	color: rgba(0, 0, 0, 1) !important;
-	border-color: rgba(0, 0, 0, 0.15) !important;
+	color: rgba(0, 0, 0, 0.5) !important;
 	opacity: 1;
+	border-bottom: 4px solid #90caf9;
+	border-top: 4px solid rgba(0, 0, 0, 0);
 }
 
 .t-not-selected {
 	background-color: rgba(0, 0, 0, 0.12) !important;
-	color: rgba(0, 0, 0, 1) !important;
-	border-color: rgba(0, 0, 0, 0.15) !important;
+	color: rgba(0, 0, 0, 0.5) !important;
+	border-bottom: 4px solid rgba(0, 0, 0, 0);
+	border-top: 4px solid rgba(0, 0, 0, 0);
 	opacity: 0.2;
 }
 
@@ -22,7 +24,25 @@
 	display: flex !important;
 	flex-direction: row !important;
 	justify-content: space-around !important;
-	align-items: center !important;
+	align-items: stretch !important;
+}
+
+.btn-filtre {
+	padding: 0.5em;
+	font-size: 1.05em;
+	border-radius: 0.2em;
+	text-transform: uppercase;
+}
+
+.btn-filtre > span {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-filtre:hover {
+	cursor: pointer;
 }
 
 .matches-block {

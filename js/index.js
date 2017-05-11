@@ -1,9 +1,9 @@
 $(function() {
 	// récupération des boutons de filtre des sous-tournois
-	var btnFiltres = $(".filtre-bar .btn-large");
+	var btnFiltres = $(".btn-filtre");
 
 	// récupération du bouton de filtre séléctionné
-	var btnFiltreActif = $(".btn-large.t-selected");
+	var btnFiltreActif = $(".btn-filtre.t-selected");
 
 	// récupération de tous les block de matchs
 	var matchsBlocks = $(".match-block");
