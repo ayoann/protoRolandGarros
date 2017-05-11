@@ -156,6 +156,10 @@
 	font-size: 2em !important;
 }
 
+.set-block > .label {
+	display: none;
+}
+
 .vs-block {
 	text-align: center;
 	color: #a5a5a5;
