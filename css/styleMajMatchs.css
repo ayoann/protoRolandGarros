@@ -1,0 +1,14 @@
+/*styleMajMatchs.css*/
+
+.match-block {
+	width: 100%;
+}
+
+.scores {
+	width: 75%;
+	margin: 0 auto !important;
+}
+
+.score {
+	padding: 0 60px !important;
+}
