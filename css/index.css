@@ -1,3 +1,21 @@
+.t-not-selected:hover {
+	opacity: 0.9;
+}
+
+.t-selected {
+	background-color: rgba(0, 0, 0, 0.12) !important;
+	color: rgba(0, 0, 0, 1) !important;
+	border-color: rgba(0, 0, 0, 0.15) !important;
+	opacity: 1;
+}
+
+.t-not-selected {
+	background-color: rgba(0, 0, 0, 0.12) !important;
+	color: rgba(0, 0, 0, 1) !important;
+	border-color: rgba(0, 0, 0, 0.15) !important;
+	opacity: 0.2;
+}
+
 .filtre-bar {
 	margin: auto !important;
 	padding: 1em 0 1em 0 !important;
@@ -15,11 +33,16 @@
 	padding-top: 1em;
 }
 
+.winners {
+	background-color: rgba(168, 221, 146, 0.30);
+	border: 1px solid rgba(168, 221, 146, 0.60);
+}
+
 .match-block {
 	width: 49%;
-	display: flex !important;
-	flex-direction: column !important;
-	align-items: stretch !important;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
 	background-color: #f0f0f0; 
 	border-radius: 0.25em;
 	padding: 0.75em;
@@ -75,7 +98,8 @@
 }
 
 .team-block {
-	margin: 1em 0 1em 0;
+	border-radius: 0.25em;
+	margin: 1em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -86,6 +110,10 @@
 	color: #ccc;
 	font-size: 1.25em;
 	font-weight: bold;
+}
+
+.winners > div:first-child {
+	color: rgba(0, 0, 0, 0.25);
 }
 
 .players-block {

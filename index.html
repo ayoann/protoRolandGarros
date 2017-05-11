@@ -20,17 +20,18 @@
 
     <div class="container">
     	<div class="row .center-align filtre-bar">
-    		<div class="col btn-large">Simple messieurs</div>
-    		<div class="col btn-large">Simple dames</div>
-    		<div class="col btn-large">Double messieurs</div>
-    		<div class="col btn-large">Double dames</div>
-    		<div class="col btn-large">Double mixtes</div>
-    		<div class="col btn-large">Simple juniors</div>
-    		<div class="col btn-large">Double juniors</div>
+    		<div class="col btn-large t-selected"><span class="t-tous">Tous</span></div>
+    		<div class="col btn-large t-not-selected"><span class="t-simple-h">Simple messieurs</span></div>
+    		<div class="col btn-large t-not-selected"><span class="t-simple-f">Simple dames</span></div>
+    		<div class="col btn-large t-not-selected"><span class="t-double-h">Double messieurs</span></div>
+    		<div class="col btn-large t-not-selected"><span class="t-double-f">Double dames</span></div>
+    		<div class="col btn-large t-not-selected"><span class="t-double-mixte">Double mixtes</span></div>
+    		<div class="col btn-large t-not-selected"><span class="t-simple-j">Simple juniors</span></div>
+    		<div class="col btn-large t-not-selected"><span class="t-double-j">Double juniors</span></div>
     	</div>
     	<div class="divider"></div>
     	<div class="matches-block">
-    		<div class="match-block">
+    		<div class="match-block t-simple-f">
     			<div class="top-line">
     				<div>
     					<div class="label">date</div>
@@ -47,7 +48,7 @@
     			</div>
     			<div class="tournament-block">Simple dames</div>
     			<div class="teams-block">
-    				<div class="team-block">
+    				<div class="team-block winners">
     					<div>Equipe 1</div>
     					<div class="players-block">
     						<div>Serena Williams</div>
@@ -75,7 +76,7 @@
     			</div>
     		</div>
     		
-    		<div class="match-block">
+    		<div class="match-block t-double-h">
     			<div class="top-line">
     				<div>
     					<div class="label">date</div>
@@ -92,7 +93,7 @@
     			</div>
     			<div class="tournament-block">Double hommes</div>
     			<div class="teams-block">
-    				<div class="team-block">
+    				<div class="team-block winners">
     					<div>Equipe 1</div>
     					<div class="players-block">
     						<div>Jo-Wilfried Tsonga</div>
@@ -122,7 +123,7 @@
     			</div>
     		</div>
 
-    		<div class="match-block">
+    		<div class="match-block t-simple-h">
     			<div class="top-line">
     				<div>
     					<div class="label">date</div>
@@ -139,7 +140,7 @@
     			</div>
     			<div class="tournament-block">Simple hommes</div>
     			<div class="teams-block">
-    				<div class="team-block">
+    				<div class="team-block winners">
     					<div>Equipe 1</div>
     					<div class="players-block">
     						<div>Gilles Simon</div>
@@ -167,7 +168,7 @@
     			</div>
     		</div>
     		
-    		<div class="match-block">
+    		<div class="match-block t-double-h">
     			<div class="top-line">
     				<div>
     					<div class="label">date</div>
@@ -195,7 +196,7 @@
     					</div>
     				</div>
     				<div class="vs-block">VS</div>
-    				<div class="team-block">
+    				<div class="team-block winners">
     					<div>Equipe 2</div>
     					<div class="players-block">
     						<div>Andy Murray</div>
@@ -212,7 +213,7 @@
     			</div>
     		</div>
 
-    		<div class="match-block">
+    		<div class="match-block t-simple-j">
     			<div class="top-line">
     				<div>
     					<div class="label">date</div>
@@ -229,7 +230,7 @@
     			</div>
     			<div class="tournament-block">Simple juniors</div>
     			<div class="teams-block">
-    				<div class="team-block">
+    				<div class="team-block winners">
     					<div>Equipe 1</div>
     					<div class="players-block">
     						<div>Bob Marley</div>
@@ -257,7 +258,7 @@
     			</div>
     		</div>
     		
-    		<div class="match-block">
+    		<div class="match-block t-double-j">
     			<div class="top-line">
     				<div>
     					<div class="label">date</div>
@@ -286,7 +287,7 @@
     					</div>
     				</div>
     				<div class="vs-block">VS</div>
-    				<div class="team-block">
+    				<div class="team-block winners">
     					<div>Equipe 2</div>
     					<div class="players-block">
     						<div>Paul Martin</div>
@@ -308,5 +309,6 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>
