@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Rolland Garros</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/addPages.css" media="screen" /> 
+</head>
+<body>
+	<nav>
+		<div class="nav-wrapper deep-orange lighten-1">
+			<img src="../../pictures/logo_60px.png" class="brand-logo"/>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li>
+					<a href="../Organisateur.html" class="waves-effect waves-light deep-orange darken-1 btn">Retour</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<h4 class="center-align">Ajouter un joueur</h4>
+	<div class="container">
+		<div class="frame z-depth-3">
+			<form class="col s12 add_page_form">
+				<div class="row col s12">
+				    <div class="input-field field center-elem-form">
+						<input placeholder="Prénom"id="firstname" type="text" class="validate">
+						<label for="firstname">Prénom</label>
+				    </div>
+			    </div>
+				<div class="row col s12">
+				    <div class="input-field field center-elem-form">
+						<input placeholder="Nom"id="lastname" type="text" class="validate">
+						<label for="lastname">Nom</label>
+				    </div>
+			  	</div>
+			  	<div class="row col s12">
+				  	<div class="input-field field center-elem-form">
+						<select>
+							<option value="" disabled selected>Choisir la nationalité</option>
+							<option value="1">Allemande</option>
+							<option value="2">Anglaise</option>
+							<option value="3">Danoise</option>
+							<option value="4">Espagnole</option>
+							<option value="5">Française</option>
+							<option value="6">Italienne</option>
+							<option value="7">Portugaise</option>
+						</select>
+						<label>Nationalité</label>
+					</div>
+				</div>
+				<div class="row col s12">
+				  	<div class="input-field field center-elem-form">
+						<select>
+							<option value="" disabled selected>Choisir le sexe</option>
+							<option value="f">Femme</option>
+							<option value="m">Homme</option>
+						</select>
+						<label>Sexe</label>
+					</div>
+				</div>
+				<div class="row col s12">
+					<div class="center-elem-form validate-btn">
+						<a class="waves-effect waves-light btn">Enregistrer</a>	
+					</div>
+				</div>
+			</form>
+		</div>
+    </div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $('select').material_select();
+		});
+	</script>
+
+</body>
+</html>
