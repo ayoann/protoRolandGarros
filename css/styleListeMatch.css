@@ -1,0 +1,17 @@
+.btn {
+ 	width: 80px;
+ 	padding: 0px;
+ 	margin: 0px;
+}
+
+#rectangle {
+	border-radius: 10px;
+}
+
+#label {
+	padding-left: 100px;	
+}
+
+.btn {
+	margin-right: 50px;	
+}
