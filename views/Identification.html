@@ -1,51 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>S'identifier</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-	<link rel="stylesheet" href="../css/styleIdentification.css">
+    <meta charset="UTF-8">
+    <title>S'identifier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/styleIdentification.css">
 </head>
 <body>
-
+<nav>
+    <div class="nav-wrapper deep-orange lighten-1">
+        <img src="../pictures/logo_60px.png" class="brand-logo"/>
+    </div>
+</nav>
 <div class="container" id="mainBlock">
-	<!-- Page Content goes here -->
-
-	 <form action="/organisation.php">
-	 
-		<div class="row" id="rectangle">
-
-			<div class="col s4 offset-s4">
-				<span class="flow-text" id="title">Connexion</span>
-			</div>
-
-			<div class="col s10 ">
-
-				<div class="col s4 offset-s2 align-center">
-					<span class="flow-text">Nom :</span>
-				</div>
-				<div class="col s6">
-					<input type="text" name="login" placeholder="bonjour" >
-				</div>
-			</div>
-
-			<div class="col s10 ">
-
-				<div class="col s4 offset-s2 align-center">
-					<span class="flow-text">Mot de passe :</span>
-				</div>
-				<div class="col s6">
-					<input type="password" name="password" >
-				</div>
-			</div>
-
-			<div class="col s4 offset-s4">
-				<a class="waves-effect waves-light btn" href="Organisateur.html">S'identifier</a>
-			</div>
-
-		</div>
-	</form>
+    <div class="row">
+        <div class="col s10 offset-s1 rectangle z-depth-3">
+            <h5 class="center-align" id="title">Connexion</h5>
+            <div class="col s4 offset-s1">
+                <span class="flow-text">Nom :</span>
+            </div>
+            <div class="col s6">
+                <input type="text" name="login"/>
+            </div>
+            <div class="col s4 offset-s1">
+                <span class="flow-text">Mot de passe :</span>
+            </div>
+            <div class="col s6">
+                <input type="password" name="password"/>
+            </div>
+            <div class="col s4 offset-s4">
+                <div class="col s12 offset-s1">
+                    <a class="waves-effect waves-light btn buttonIdentifier" href="Organisateur.html">S'identifier</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
 </body>
 </html>
