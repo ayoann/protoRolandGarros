@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Planifier un match simple</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/stylePlanifierMatchSimple.css">
+</head>
+<body>
+<div class="row">
+    <a class="waves-effect waves-light btn buttonRetour" href="Organisateur.html">Retour</a>
+</div>
+<div class="row">
+    <h4 class="center-align">Planifier un match double</h4>
+    <div class="col s4 offset-s4 z-depth-3 divForm">
+        <div class="frame">
+            <form class="col s12">
+                <div class="input-field col s12 formSelectMatchSimple">
+                    <select>
+                        <option value="" disabled selected>Choisir un tournoi</option>
+                        <option value="1" disabled selected>Simple Homme</option>
+                        <option value="2" disabled selected>Simple Femme</option>
+                        <option value="3">Double Homme</option>
+                        <option value="4">Double Femme</option>
+                        <option value="5" disabled selected>Simple Junior Mixte</option>
+                        <option value="6">Double Junior Mixte</option>
+                    </select>
+                </div>
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>Choisir le joueur 1 pour l'équipe 1</option>
+                        <option value="1">Raphaël Nadal</option>
+                        <option value="2">Andy Murray</option>
+                        <option value="3">Serena Williams</option>
+                        <option value="4">Gaël Monfils</option>
+                        <option value="5">Roger Federer</option>
+                    </select>
+                </div>
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>Choisir le joueur 2 pour l'équipe 1</option>
+                        <option value="1">Raphaël Nadal</option>
+                        <option value="2">Andy Murray</option>
+                        <option value="3">Serena Williams</option>
+                        <option value="4">Gaël Monfils</option>
+                        <option value="5">Roger Federer</option>
+                    </select>
+                </div>
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>Choisir un joueur 1 pour l'équipe 2</option>
+                        <option value="1">Raphaël Nadal</option>
+                        <option value="2">Andy Murray</option>
+                        <option value="3">Serena Williams</option>
+                        <option value="4">Gaël Monfils</option>
+                        <option value="5">Roger Federer</option>
+                    </select>
+                </div>
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>Choisir un joueur 2 pour l'équipe 2</option>
+                        <option value="1">Raphaël Nadal</option>
+                        <option value="2">Andy Murray</option>
+                        <option value="3">Serena Williams</option>
+                        <option value="4">Gaël Monfils</option>
+                        <option value="5">Roger Federer</option>
+                    </select>
+                </div>
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>Choisir le numéro du court</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>Choisir un arbitre</option>
+                        <option value="1">Benoit Laurent</option>
+                        <option value="2">Fabrice Jounad</option>
+                        <option value="3">Laurent Voisin</option>
+                        <option value="4">Cécile Forêt</option>
+                        <option value="5">Michel Calmo</option>
+                    </select>
+                </div>
+                <div class="col s2 offset-s3">
+                    <div class="col s12 offset-s4">
+                        <a class="waves-effect waves-light btn buttonFormSimpleValider">Valider</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('select').material_select();
+    });
+</script>
+</html>
