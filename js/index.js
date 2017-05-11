@@ -30,16 +30,16 @@ $(function() {
 			matchsBlocks.each(function (index, elt) {
 				var matchBlock = $(elt);
 				if (matchBlock.hasClass(className)) {
-					matchBlock.css("display", "flex");
+					matchBlock.show();
 				} else {
-					matchBlock.css("display", "none");
+					matchBlock.hide();
 				}
 			});
 		} else {
 			matchsBlocks.each(function (index, elt) {
 				var matchBlock = $(elt);
 
-				matchBlock.css("display", "flex");
+				matchBlock.show();
 			});
 		}
 	}
